@@ -711,6 +711,10 @@ video {
   margin-top: 8rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -1040,6 +1044,10 @@ video {
   color: rgb(133 70 50 / var(--tw-text-opacity));
 }
 
+.marker\:text-center *::marker {
+  text-align: center;
+}
+
 .marker\:align-middle *::marker {
   vertical-align: middle;
 }
@@ -1066,6 +1074,10 @@ video {
 
 .marker\:text-nutmeg *::marker {
   color: rgb(133 70 50 );
+}
+
+.marker\:text-center::marker {
+  text-align: center;
 }
 
 .marker\:align-middle::marker {
@@ -1122,14 +1134,47 @@ video {
   content: var(--tw-content);
 }
 
+@media (max-width: 405px) {
+  .max-\[405px\]\:inline-block {
+    display: inline-block;
+  }
+
+  .max-\[405px\]\:align-middle {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 335px) {
+  .max-\[335px\]\:inline-block {
+    display: inline-block;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:m-\[10rem\] {
     margin: 10rem;
   }
 
+  .md\:m-\[8rem\] {
+    margin: 8rem;
+  }
+
+  .md\:m-\[6rem\] {
+    margin: 6rem;
+  }
+
+  .md\:m-\[5rem\] {
+    margin: 5rem;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-\[5rem\] {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .md\:mt-10 {
@@ -1166,6 +1211,14 @@ video {
 
   .md\:max-w-\[90\%\] {
     max-width: 90%;
+  }
+
+  .md\:max-w-screen-lg {
+    max-width: 1024px;
+  }
+
+  .md\:max-w-screen-md {
+    max-width: 768px;
   }
 
   .md\:rounded-2xl {
