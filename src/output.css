@@ -544,25 +544,114 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-24 {
+  margin-right: 6rem;
+}
+
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[5\.5rem\] {
+  margin-right: 5.5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .flex {
@@ -573,29 +662,105 @@ video {
   display: table;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-px {
+  height: 1px;
+}
+
+.min-h-dvh {
+  min-height: 100dvh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
   justify-content: center;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
-.bg-eggshell {
+.bg-rose-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 230 216 / var(--tw-bg-opacity));
+  background-color: rgb(255 245 250 / var(--tw-bg-opacity));
+}
+
+.bg-dark-charcoal {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 45 44 / var(--tw-bg-opacity));
 }
 
 .bg-light-gray {
@@ -603,14 +768,13 @@ video {
   background-color: rgb(228 222 216 / var(--tw-bg-opacity));
 }
 
-.bg-dark-raspberry {
+.bg-eggshell {
   --tw-bg-opacity: 1;
-  background-color: rgb(123 40 79 / var(--tw-bg-opacity));
+  background-color: rgb(243 230 216 / var(--tw-bg-opacity));
 }
 
-.bg-rose-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 245 250 / var(--tw-bg-opacity));
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-4 {
@@ -621,50 +785,53 @@ video {
   padding: 1.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
+.pr-4 {
   padding-right: 1rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
 }
 
 .font-fancy {
   font-family: "Young Serif", sans-serif;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.font-outfit {
+  font-family: "Outfit", serif;
 }
 
 .text-3xl {
@@ -677,17 +844,31 @@ video {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-.leading-3 {
-  line-height: .75rem;
+.font-normal {
+  font-weight: 400;
 }
 
-.text-rose-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 245 250 / var(--tw-text-opacity));
+.font-bold {
+  font-weight: 700;
 }
 
 .text-dark-charcoal {
@@ -698,4 +879,101 @@ video {
 .text-dark-raspberry {
   --tw-text-opacity: 1;
   color: rgb(123 40 79 / var(--tw-text-opacity));
+}
+
+.text-wenge-brown {
+  --tw-text-opacity: 1;
+  color: rgb(95 87 78 / var(--tw-text-opacity));
+}
+
+.text-rose-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 245 250 / var(--tw-text-opacity));
+}
+
+.text-nutmeg {
+  --tw-text-opacity: 1;
+  color: rgb(133 70 50 / var(--tw-text-opacity));
+}
+
+.marker\:align-middle *::marker {
+  vertical-align: middle;
+}
+
+.marker\:font-fancy *::marker {
+  font-family: "Young Serif", sans-serif;
+}
+
+.marker\:font-outfit *::marker {
+  font-family: "Outfit", serif;
+}
+
+.marker\:font-sans *::marker {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.marker\:font-semibold *::marker {
+  font-weight: 600;
+}
+
+.marker\:text-dark-raspberry *::marker {
+  color: rgb(123 40 79 );
+}
+
+.marker\:text-nutmeg *::marker {
+  color: rgb(133 70 50 );
+}
+
+.marker\:align-middle::marker {
+  vertical-align: middle;
+}
+
+.marker\:font-fancy::marker {
+  font-family: "Young Serif", sans-serif;
+}
+
+.marker\:font-outfit::marker {
+  font-family: "Outfit", serif;
+}
+
+.marker\:font-sans::marker {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.marker\:font-semibold::marker {
+  font-weight: 600;
+}
+
+.marker\:text-dark-raspberry::marker {
+  color: rgb(123 40 79 );
+}
+
+.marker\:text-nutmeg::marker {
+  color: rgb(133 70 50 );
+}
+
+.after\:h-1::after {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
+.after\:h-1\/2::after {
+  content: var(--tw-content);
+  height: 50%;
+}
+
+.after\:w-px::after {
+  content: var(--tw-content);
+  width: 1px;
+}
+
+.after\:bg-dark-charcoal::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 45 44 / var(--tw-bg-opacity));
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
